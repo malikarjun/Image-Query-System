@@ -1,0 +1,166 @@
+
+    {
+        "data": {
+            "isClass": false,
+            "isACoreferent": false,
+            "pos": "VBP",
+            "isASemanticRole": false,
+            "isEntity": false,
+            "wordSense": "00955670",
+            "word": "fight-3",
+            "isEvent": true
+        },
+        "children": [
+            {
+                "data": {
+                    "isClass": false,
+                    "isACoreferent": false,
+                    "pos": "NNS",
+                    "isASemanticRole": false,
+                    "isEntity": true,
+                    "wordSense": "01677105",
+                    "word": "lizards-2",
+                    "Edge": "agent",
+                    "isEvent": false
+                },
+                "children": [
+                    {
+                        "data": {
+                            "isClass": false,
+                            "isACoreferent": false,
+                            "isASemanticRole": true,
+                            "isEntity": false,
+                            "word": ":first fighter",
+                            "Edge": "semantic_role",
+                            "isEvent": false
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "isClass": false,
+                            "isACoreferent": false,
+                            "pos": "CD",
+                            "isASemanticRole": false,
+                            "isEntity": true,
+                            "word": "Two-1",
+                            "Edge": "size",
+                            "isEvent": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "isClass": true,
+                                    "isACoreferent": false,
+                                    "pos": "CD",
+                                    "isASemanticRole": false,
+                                    "isEntity": false,
+                                    "word": "Two",
+                                    "Edge": "instance_of",
+                                    "isEvent": false
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "isClass": true,
+                            "isACoreferent": false,
+                            "pos": "NNS",
+                            "isASemanticRole": false,
+                            "isEntity": false,
+                            "word": "lizard",
+                            "Edge": "instance_of",
+                            "isEvent": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "isClass": true,
+                                    "isACoreferent": false,
+                                    "pos": "NNS",
+                                    "isASemanticRole": false,
+                                    "isEntity": false,
+                                    "word": "animal",
+                                    "Edge": "is_subclass_of",
+                                    "isEvent": false
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "isClass": false,
+                    "isACoreferent": false,
+                    "pos": "NN",
+                    "isASemanticRole": false,
+                    "isEntity": true,
+                    "wordSense": "14869913",
+                    "word": "water-6",
+                    "Edge": "is_inside_location",
+                    "isEvent": false
+                },
+                "children": [
+                    {
+                        "data": {
+                            "isClass": true,
+                            "isACoreferent": false,
+                            "pos": "NN",
+                            "isASemanticRole": false,
+                            "isEntity": false,
+                            "word": "water",
+                            "Edge": "instance_of",
+                            "isEvent": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "isClass": true,
+                                    "isACoreferent": false,
+                                    "pos": "NN",
+                                    "isASemanticRole": false,
+                                    "isEntity": false,
+                                    "word": "substance",
+                                    "Edge": "is_subclass_of",
+                                    "isEvent": false
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "isClass": true,
+                    "isACoreferent": false,
+                    "pos": "VBP",
+                    "isASemanticRole": false,
+                    "isEntity": false,
+                    "word": "fight",
+                    "Edge": "instance_of",
+                    "isEvent": false
+                },
+                "children": [
+                    {
+                        "data": {
+                            "isClass": true,
+                            "isACoreferent": false,
+                            "pos": "VBP",
+                            "isASemanticRole": false,
+                            "isEntity": false,
+                            "word": "act",
+                            "Edge": "is_subclass_of",
+                            "isEvent": false
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }
+

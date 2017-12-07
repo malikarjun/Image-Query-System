@@ -1,0 +1,17 @@
+<Sen_node> <HasIns> "water-6" .
+<Sen_node> <HasIns> "Two-1" .
+<Sen_node> <HasIns> "lizards-2" .
+<Sen_node> <HasIns> "fight-3" .
+<Sen_node> <SenContent> "Two lizards fight in the water." .
+<www.flickr.com/photos/rich_brame/166507476/> <HasSen> "Sen_node" .
+<lizards-2> <instance_of> <lizard> .
+<lizards-2> <size> <Two-1> .
+<lizards-2> <semantic_role> ":first fighter" .
+<fight> <is_subclass_of> "act" .
+<water> <is_subclass_of> "substance" .
+<lizard> <is_subclass_of> "animal" .
+<water-6> <instance_of> <water> .
+<fight-3> <instance_of> <fight> .
+<fight-3> <is_inside_location> <water-6> .
+<fight-3> <agent> <lizards-2> .
+<Two-1> <instance_of> "Two" .
